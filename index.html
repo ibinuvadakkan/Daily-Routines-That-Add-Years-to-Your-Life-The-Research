@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Longevity Research Comparison</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="longevity-table-wrapper">
+        <div class="table-header">
+            <h2>Daily Routines That Add Years to Your Life: The Research</h2>
+            <p>Here's a comparison of key findings from major longevity studies:</p>
+        </div>
+
+        <div class="table-controls">
+            <input type="text" class="search-input" placeholder="Search studies or findings...">
+            <button class="sort-btn" data-sort="study">Sort by Study</button>
+            <button class="sort-btn" data-sort="duration">Sort by Duration</button>
+        </div>
+
+        <table class="research-table">
+            <thead>
+                <tr>
+                    <th data-sort="study">Study</th>
+                    <th data-sort="duration">Duration</th>
+                    <th data-sort="participants">Participants</th>
+                    <th data-sort="finding">Key Finding</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr>
+                    <td><strong>Harvard Circulation Study</strong></td>
+                    <td>34 years</td>
+                    <td>123,219</td>
+                    <td>5 healthy habits can add <span class="years-highlight">12-14 years</span></td>
+                </tr>
+                <tr>
+                    <td><strong>VA Million Veteran Program</strong></td>
+                    <td>8 years</td>
+                    <td>719,147</td>
+                    <td>8 healthy habits can add <span class="years-highlight">23-24 years</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Blue Zones Research</strong></td>
+                    <td>Ongoing</td>
+                    <td>Global populations</td>
+                    <td>9 common factors in longest-lived communities</td>
+                </tr>
+                <tr>
+                    <td><strong>UK Biobank Study</strong></td>
+                    <td>Long-term</td>
+                    <td>Large cohort</td>
+                    <td>Dietary changes alone can add <span class="years-highlight">8-10 years</span></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="table-footer">
+            <p>The evidence is clear across multiple large-scale studies: daily habits have profound effects on how long you live.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
